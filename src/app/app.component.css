@@ -1,0 +1,30 @@
+.container {
+  margin-top: 8%;
+
+}
+
+.box{
+    margin-top:14px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    
+    .container {
+        width : 400px;
+      }
+  }
+
+  @media only screen and (max-width: 650px) {
+    
+    .container {
+        width : 350px;
+      }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+        margin-top: 10%;
+        width : 300px;
+      }
+  }
